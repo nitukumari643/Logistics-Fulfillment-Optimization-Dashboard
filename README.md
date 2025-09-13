@@ -1,4 +1,3 @@
-# Logistics-Fulfillment-Optimization-Dashboard
 # 🚚 Logistics & Fulfillment Optimization Dashboard
 
 ### 📌 Overview
@@ -30,3 +29,28 @@ This project analyzes logistics performance using order-level data to uncover bo
    ```bash
    git clone <your-repo-url>
    cd meesho-fulfillment-dashboard
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the analysis:
+   ```bash
+   python fulfillment_analysis.py
+   ```
+
+4. Launch dashboard:
+   ```bash
+   streamlit run dashboard.py
+   ```
+
+---
+
+### 📌 Business Impact
+- Identifies **cities with frequent delays** for targeted improvements.
+- Tracks **on-time delivery %** and **cancellation rates**.
+- Enables **data-driven decisions** to improve customer & seller experience.
+
+---
